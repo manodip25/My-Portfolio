@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manodip Ghosh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e79cd301a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Image/logo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>
+                    Hi everyone, this is <span>Manodip Ghosh</span> <br>from West Bengal, India.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/PF.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>
+                        Hey Everyone, This is Manodip Ghosh from Malda, West Bengal, India <i
+                            class="fa-solid fa-globe"></i>.<br>
+                        Currently I am pursuing my B.Tech in Computer Science and Engineering from Gurunanak
+                        Institute of Technology <i class="fa-solid fa-face-smile"></i><br>
+                        
+    
+
+                        I am also interested in! <br><br>
+                        1) Photography <i class="bi bi-camera2"></i><br>
+                        2) Playing Video Games <i class="fa-solid fa-gamepad"></i>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">
+                            Experience
+                        </p> -->
+                        <p class="tab-links active-link" onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+                    <div class=" tab-contents active-tab" id="skills">
+                        <li>
+                            <h3>HTML</h3>
+                            <span class="bar"><span class="html"></span></span>
+                        </li>
+                        <li>
+                            <h3>CSS</h3>
+                            <span class="bar"><span class="css"></span></span>
+                        </li>
+                        <li>
+                            <h3>JavaScript</h3>
+                            <span class="bar"><span class="javascript"></span></span>
+                        </li>
+                        <li>
+                            <h3>C</h3>
+                            <span class="bar"><span class="c"></span></span>
+                        </li>
+                
+                        <li>
+                            <h3>Java</h3>
+                            <span class="bar"><span class="java"></span></span><br>
+                        </li>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span> UX/UI</span><br>Designing web/app interfaces
+                            </li>
+                            <li>
+                                <span> Web Developement</span><br>Web app Developement
+                            </li>
+                            <li>
+                                <span> App Developement</span><br>Building android/ios apps
+                            </li>
+                        </ul>
+                    </div> -->
+                    
+                    <div class="tab-contents active-tab" id="education"><br>
+                        <ul>
+                            <li>
+                                <span> 2020 - Current</span><br>Persuing B.Tech in Computer Science and Engineering from Gurunanak Institute of Technology.
+                            </li>
+                            <li>
+                                <span> 2018 - 2020</span><br>Completed 10 + 2 from Lalit Mohan Shyam Mohini High School under WBCHSE.
+                            </li>
+                            <li>
+                                <span> 2012 - 2018</span><br>Completed 10th from Ramakrishna Mission Vivekananda Vidyamandir High School under WBBSE.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo necessitatibus accusamus ratione
+                        odio asperiores.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo necessitatibus accusamus ratione
+                        odio asperiores.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo necessitatibus accusamus ratione
+                        odio asperiores.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                My Projects
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Image/Beige Gray Minimalist Corporate .png">
+                    <div class="layer">
+                        <h3>My portfolio</h3>
+                        <p>This project is basically represents my education,skill and achivements.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/Beige Gray Minimalist Corporate  (1).png">
+                    <div class="layer">
+                        <h3>A C2B Website</h3>
+                        <p>This is a basic e-Commerce website made with HTML, CSS and basic JavaScript.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Image/B40 (1).jpg">
+                    <div class="layer">
+                        <h3>Student Management System</h3>
+                        <p>This project is used to store student related data.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>manodip25@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+919732676438</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100094052892165&mibextid=LQQJ4d" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/plutoo.og?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/manodip25" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/manodip-ghosh-70196a21a/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="RESUME.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form method="POST" name="google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" name="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Manodip. Designed by Manodip Ghosh</p>
+        </div>
+    </div>
+
+
+
+    <script src="js/script"></script>
+    <script src="js/script2"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwXiBm-gv2Wbv0VEEWRoLBB3GO9j2hB9V1j7hqCR1XF8sMwLQvQ9k8PFMgvhoUqa_MfIw/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for contacting me..! I will contact you soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
